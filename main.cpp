@@ -25,7 +25,15 @@ void test1() {
   Box bd = ba.trick(bb, bc, 7);
 }
 
+void test2() {
+  Box ba("ba");
+  Box bb("bb", 10);
+  ba = bb;
+  Box bc = bb;
+}
+
 int main() {
-  test1();
+  // test1();
+  test2();
   return 0;
 }
