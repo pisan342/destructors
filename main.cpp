@@ -93,8 +93,8 @@ void test3() {
 void displayBoxString(Box b) { cout << "displayBoxString: " << b.name << endl; }
 
 // if the Box constructor with single parameter does not have explicit
-// the below function will compile annd run
-// The compiler use the Box connstructor to implicitly convert a string
+// the below function will compile and run
+// The compiler use the Box constructor to implicitly convert a string
 // into a Box object and the calls displayBoxString
 void test4() {
   Box b("b");
